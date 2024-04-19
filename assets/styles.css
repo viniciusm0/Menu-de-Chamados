@@ -169,7 +169,7 @@ main {
     opacity: 75%;
 }
 
-.menu-criacao {
+.menu-criacao-on {
     display: flex;
     position: absolute;
     justify-content: center;
