@@ -4,10 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Chamados - Login</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2babe049b3.js" crossorigin="anonymous"></script>
+    <script src="assets/script.js"></script>
 </head>
 <body>
-    <h1>Tela de login</h1>
-    <h2>Em desenvolvimento</h2>
-    <a href="main.html">Clique aqui para ir a main page</a>
+    <main class="login-area">
+        <div class="form-area"> 
+            <h1 class="textos">Login</h1>
+            <p class="textos">Digite os seus dados no campo abaixo.</p>
+            <form action="" class="form">
+                <label for="email" class="label-form">Usuário</label>
+                <input type="text" class="input-text">
+                <label for="senha" class="label-form">Senha</label>
+                <input type="password" class="input-text">
+                <a href="password.html" class="senha-texto">Esqueci a senha</a>
+                <input type="submit" value="Acessar" class="input-submit" onclick="paginaMain()">
+            </form>
+        </div>
+    </main>
 </body>
 </html>

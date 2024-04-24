@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 16px;
+    font-family: 'Open Sans';
+    --text-primary: #b6b6b6;
+    --text-secondary: #ececec;
+    --bg-primary: #23232e;
+    --bg-secondaty: #141418;
+    --bg-darkmode: rgb(24, 49, 83, 1);
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+    background-color: var(--bg-darkmode);
+    overflow: hidden;
+}
+
+.login-area {
+    max-width: 500px;
+    min-width: 320px;
+    height: 500px;
+    background-color: white;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.textos {
+    margin-left: 50px;
+    margin-bottom: 10px;
+    font-family: "Oswald";
+}
+
+.form-area {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 70%;
+    gap: 15px;
+}
+
+.label-form {
+    margin-left: 80px;
+    font-family: "Oswald";
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.senha-texto {
+    margin-left: 80px;
+}
+
+.input-text {
+    width: 70%;
+    border-radius: 15px;
+    height: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.input-submit {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 6px;
+    font-family: "Oswald";
+    font-size: 17px;
+    letter-spacing: 1px;
+    background-color: var(--bg-darkmode);
+    color: white;
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+}
