@@ -23,12 +23,18 @@ body {
     overflow: hidden;
 }
 
+p {
+    border-bottom: gray;
+    border-width: 0px;
+    border-bottom-width: 1px;
+    width: 70%;
+    text-align: center;
+    border-style: solid;
+    padding-bottom: 20px;
+}
+
 .login-area {
-    max-width: 500px;
-    min-width: 320px;
-    height: 500px;
-    background-color: white;
-    margin: auto;
+    height: 100vh;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -37,54 +43,51 @@ body {
 }
 
 .textos {
-    margin-left: 50px;
     margin-bottom: 10px;
     font-family: "Oswald";
 }
 
 .form-area {
+    width: 40%;
+    height: 500px;
+    background-color: white;
     display: flex;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100%;
-    width: 100%;
+    border-radius: 15px;
 }
 
 .form {
     display: flex;
     justify-content: center;
-    align-items: start;
+    align-items: center;
     flex-direction: column;
     flex-wrap: wrap;
     width: 100%;
-    height: 70%;
-    gap: 15px;
+    height: 100%;
+    gap: 18px;
 }
 
 .label-form {
-    margin-left: 80px;
     font-family: "Oswald";
     font-size: 20px;
     font-weight: bold;
 }
 
 .senha-texto {
-    margin-left: 80px;
+    
 }
 
 .input-text {
-    width: 70%;
+    width: 60%;
     border-radius: 15px;
-    height: 10%;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 15px;
+    height: 7%;
+    font-size: 13px;
+    padding-left: 15px;
 }
 
 .input-submit {
-    margin-left: auto;
-    margin-right: auto;
     width: 50%;
     padding: 6px;
     font-family: "Oswald";

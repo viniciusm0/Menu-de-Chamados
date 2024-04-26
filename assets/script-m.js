@@ -33,5 +33,3 @@ function menucriarOFF() {
     
 
 }
-
-document.getElementById("teste").innerHTML = "Page location is " + window.location.href;
